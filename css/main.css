@@ -70,6 +70,14 @@ body {
     text-align: center;
     margin-top: 21px;
 }
+.pop-up-menu {
+    display:none;
+    list-style-type: none;
+    margin: -157px 0 0 -38px;
+}
+.pop-up-menu li:last-of-type {
+    display: block;
+}
 .price {
     padding: 0 5px 0 5px;
 }
