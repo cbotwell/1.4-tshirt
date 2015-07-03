@@ -10,22 +10,44 @@ body {
 .item {
     float: left;
     margin: 0 5px 0 5px;
+    width: 306px;
 }
-.top, .buttons, .buttons div {
+.top, .buttons, .buttons div, .flip {
     border: black solid 3px;
+}
+.flip {
+    float: right;
+    background: gray;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -304px;
+    right: 0;
+    border-top: none;
+    border-right: none;
 }
 .button, .buttons div {
     border-top: none;
 }
-.flip {
-    float: right;
-    background: black;
+.buttons {
+    height: 63px;
+    border-top: none;
+}
+.buttons div {
+    border-left: none;
+    border-bottom: none;
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: gray;
+}
+.buttons div:last-of-type {
+    border-right: none;
 }
 .price p:first-of-type {
 display: inline-block;
 }
 
 .price p:last-of-type {
-    display: inline-block;
     float: right;
 }
