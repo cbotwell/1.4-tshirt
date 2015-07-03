@@ -19,6 +19,9 @@ body {
 .top, .buttons, .buttons div, .flip {
     border: black solid 3px;
 }
+.top {
+    height: 306px;
+}
 .top img {
     max-width: 300px;
     max-height: 300px;
@@ -43,6 +46,7 @@ body {
 }
 .button, .buttons div {
     border-top: none;
+    margin-top: -1px;
 }
 .buttons {
     height: 63px;
@@ -57,7 +61,7 @@ body {
 }
 .buttons div:last-of-type {
     border-right: none;
-    margin-top: -27px;
+    margin-top: -31px;
 }
 .buttons div:hover {
     background: gray;
