@@ -17,7 +17,7 @@ body {
 }
 .flip {
     float: right;
-    background: gray;
+    background: white;
     height: 30px;
     width: 30px;
     position: relative;
@@ -25,6 +25,9 @@ body {
     right: 0;
     border-top: none;
     border-right: none;
+}
+.flip:hover {
+    background: gray;
 }
 .button, .buttons div {
     border-top: none;
@@ -38,11 +41,17 @@ body {
     border-bottom: none;
     float: left;
     height: 60px;
-    width: 60px;
-    background: gray;
+    width: 20%;
 }
 .buttons div:last-of-type {
     border-right: none;
+    margin-top: -27px;
+}
+.buttons div:hover {
+    background: gray;
+}
+.price {
+    padding: 0 5px 0 5px;
 }
 .price p:first-of-type {
 display: inline-block;
