@@ -26,6 +26,11 @@ body {
     max-width: 300px;
     max-height: 300px;
 }
+.top img:active {
+    transition: transform 0.4s ease;
+    transform: rotateY(90deg);
+    background: url(images/fillmurray-300x300.jpg)
+}
 .flip {
     float: right;
     background: white;
@@ -78,7 +83,7 @@ body {
 .pop-up-menu li:last-of-type {
     display: block;
 }
-ul.pop-up-menu li:hover {
+ul.pop-up-menu li:active {
     display: block;
 }
 .price {
