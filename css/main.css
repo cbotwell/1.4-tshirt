@@ -105,6 +105,9 @@ body {
     position: relative;
     right: 21px;
 }
+.pop-up-menu p:hover {
+    color: gray;
+}
 .price {
     padding: 0 5px 0 5px;
 }
@@ -116,3 +119,11 @@ display: inline-block;
     float: right;
     font-weight: bold;
 }
+/*.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #000000 transparent transparent transparent;
+    position: relative;
+}*/
