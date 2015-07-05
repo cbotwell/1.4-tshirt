@@ -114,4 +114,5 @@ display: inline-block;
 
 .price p:last-of-type {
     float: right;
+    font-weight: bold;
 }
