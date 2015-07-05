@@ -105,7 +105,7 @@ body {
     position: relative;
     right: 21px;
 }
-.pop-up-menu p:hover {
+.pop-up-menu ul p:hover {
     color: gray;
 }
 .price {
