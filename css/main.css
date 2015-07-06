@@ -7,10 +7,10 @@ html {
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
-/*.wrapper {
-    width: 1269px;
+.wrapper {
+    max-width: 1000px;
     margin: auto;
-}*/
+}
 .item {
     float: left;
     margin: 0 5px 0 5px;
