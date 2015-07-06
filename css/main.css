@@ -152,16 +152,16 @@ display: inline-block;
 }
 @media (max-width: 1000px) {
     .wrapper {
-        max-width: 635px;
+        max-width: 306px;
         margin: auto;
     }
-    .item {
+   /* .item {
         display: block;
-    }
+    }*/
 }
-@media (max-width: 480px) {
+/*@media (max-width: 635px) {
     .wrapper {
         max-width: 306px;
         margin: auto;
     }
-}
+}*/
