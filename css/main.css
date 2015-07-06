@@ -92,6 +92,7 @@ body {
 }
 .pop-up-menu ul{
     display:none;
+    opacity: 0.1;
 }
 .pop-up-menu:hover ul {
     display: inline-block;
@@ -103,6 +104,8 @@ body {
     border: 2px solid black;
     width: 52px;
     z-index: 4;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
 }
 .pop-up-menu ul:hover {
     display: inline-block;
