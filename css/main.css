@@ -150,6 +150,15 @@ display: inline-block;
     float: right;
     font-weight: bold;
 }
+@media (max-width: 1000px) {
+    .wrapper {
+        max-width: 635px;
+        margin: auto;
+    }
+    .item {
+        display: block;
+    }
+}
 @media (max-width: 480px) {
     .wrapper {
         max-width: 306px;
