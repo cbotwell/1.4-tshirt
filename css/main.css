@@ -102,6 +102,7 @@ body {
     background: white;
     border: 2px solid black;
     width: 52px;
+    z-index: 4;
 }
 .pop-up-menu ul:hover {
     display: inline-block;
