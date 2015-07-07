@@ -21,6 +21,7 @@ body {
 }
 .top {
     height: 306px;
+    background: black;
 }
 .top img {
     max-width: 300px;
@@ -91,28 +92,34 @@ body {
     margin-top: 21px;
 }
 .pop-up-menu ul{
-    display:none;
-    opacity: 0.1;
+    display:inline-block;
+    background: white;
+    border: 0;
+    list-style-type: none;
+    width: 52px;
+    z-index: 4;
+    position: relative;
+    top: -254px;
+    left: 3px;
+    opacity: 0;
+    height: 0;
+    transition: all 0.15s ease-in-out;
 }
 .pop-up-menu:hover ul {
-    display: inline-block;
-    list-style-type: none;
     position: relative;
     top: -248px;
     left: 3px;
-    background: white;
-    border: 2px solid black;
-    width: 52px;
-    z-index: 4;
     opacity: 1;
-    transition: opacity 0.2s ease-in-out;
-}
-.pop-up-menu ul:hover {
-    display: inline-block;
+    height: auto;
+    border: 2px solid black;
 }
 .pop-up-menu li {
+    display: none;
     position: relative;
     right: 21px;
+}
+.pop-up-menu:hover li {
+    display: inline;
 }
 .pop-up-menu ul p:hover {
     color: gray;
@@ -155,13 +162,10 @@ display: inline-block;
         max-width: 306px;
         margin: auto;
     }
-   /* .item {
-        display: block;
-    }*/
 }
-/*@media (max-width: 635px) {
-    .wrapper {
-        max-width: 306px;
-        margin: auto;
+/*@media (max-width: 480px) {
+    .wrapper, .item, .top, .buttons, .buttons div {
+        width: 2em;
+        height: 2em;
     }
 }*/
