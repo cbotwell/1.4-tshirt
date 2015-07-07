@@ -29,9 +29,9 @@ body {
 }
 .card {
     position: relative;
+    transition: all 0.6s ease;
 }
 .card:active {
-    transition: transform 0.6s ease;
     transform: rotateY(180deg);
     transform-style: preserve-3d;
 }
